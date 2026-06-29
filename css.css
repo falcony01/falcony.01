@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+#video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#mute-btn{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    scale: 200%;
+    background: #ffffff1a;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #ffffff33;
+    border-radius: 6px;
+    width: 40px;
+    height: 40px; 
+}
+.bx-volume-mute,.bx-volume-full{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#about{
+    position: absolute;
+    top: 30%;
+    right: 38%;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+#avatar{
+    display: flex;
+    align-items: center;
+    background: #ffffff1a;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #ffffff33;
+    border-radius: 16px;
+    padding: 10px;
+}
+#avatar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+img {
+    width: 74px;
+    height: 74px;
+    border-radius: 10%;
+    border-radius: 50%;
+    align-items: start;
+    padding: 5px;
+}
+#chat{
+    scale: 2;
+}
+@media (max-width: 720px){
+    #about{
+        position: absolute;
+        top: 30%;
+        right: 35%;
+        scale: 150%;
+    }
+    video{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #avatar{
+        scale: 50%;
+    }
+}
+@media (max-width: 520px){
+    #about{
+        position: absolute;
+        top: 20%;
+        right: 25%;
+        scale: 100%;
+    }
+    #avatar{
+        scale: 75%;
+    }
+    #mute-btn{
+        position: absolute;
+        left: 5%;
+    }
+    video{
+        scale: 100%; 
+    } 
+}
+@media (max-width: 462px){
+    #about{
+        position: absolute;
+        top: 20%;
+        right: 17%;
+    }
+}
+@media (max-width: 371px){
+    #about{
+        top: 30%;
+        right: 10%;
+        scale: 80%;
+    }
+    #avatar h1{
+    margin: 0;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    }
+    #mute-btn{
+        position: absolute;
+        left: 10%;
+    }
+    #video{
+        scale: 25%; 
+        width: auto;
+        transform: rotate(90deg);
+        transform-origin: center
+    } 
+}
