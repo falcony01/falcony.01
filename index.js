@@ -1,6 +1,6 @@
+console.log("رابط تحميل")
 const text = "profile"; 
 let index = 0;
-console.log("رابط تحميل")
 function typeTitle() {
     document.title = text.slice(0, index + 1);
     index++;
