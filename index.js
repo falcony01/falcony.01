@@ -1,5 +1,5 @@
 console.log("رابط تحميل")
-console.loh("aHR0cHM6Ly9naXRodWIuY29tL2ZhbGNvbnkwMS90b29scy5naXQ=")
+console.loh("aHR0cHM6Ly9naXRodWIuY29tL2ZhbGNvbnkwMS90b29scy5naXQ=");
 const text = "profile"; 
 let index = 0;
 function typeTitle() {
