@@ -1,5 +1,3 @@
-console.log("رابط تحميل")
-console.log("aHR0cHM6Ly9naXRodWIuY29tL2ZhbGNvbnkwMS90b29scy5naXQ=")
 const text = "profile"; 
 let index = 0;
 function typeTitle() {
