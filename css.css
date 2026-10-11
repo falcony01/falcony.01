@@ -14,7 +14,7 @@ body{
     height: 100%;
     overflow: hidden;
     background-color: #000;
-    cursor: url('IMG_8519.webp'), auto;
+    cursor: url('IMG_8519.webp') 0 0, auto;
 }
 ::-webkit-scrollbar{
     width: 0px;
